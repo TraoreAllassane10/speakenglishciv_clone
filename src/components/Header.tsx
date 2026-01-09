@@ -32,7 +32,7 @@ const Header = () => {
   const [openMobile, setOpenMobile] = useState(false);
 
   return (
-    <div className="sticky top-0 z-50 backdrop-blur-md">
+    <div className="sticky top-0 z-50 backdrop-blur-md w-full">
       {/* Top Header */}
       <div className="hidden md:block bg-header-top">
         <div className="flex justify-between md:mx-4 lg:mx-20 py-2">
@@ -60,8 +60,9 @@ const Header = () => {
       </div>
 
       {/* Nav */}
-      <nav className="flex justify-between place-items-center md:mx-4 lg:mx-20 bg-white">
-        {/* Logo */}
+      <nav className=" bg-white w-full p-2">
+        <div className="flex justify-between place-items-center md:mx-4 lg:mx-20">
+          {/* Logo */}
         <Link to="/" className="flex gap-4 place-items-center">
           <img src={logo} alt="Logo" width={80} height={80} />
           <span className="space-x-1 font-bold text-sm sm:text-lg lg:text-xl">
@@ -103,6 +104,7 @@ const Header = () => {
           >
             {openMobile ? <X /> : <Menu />}
           </button>
+        </div>
         </div>
       </nav>
 

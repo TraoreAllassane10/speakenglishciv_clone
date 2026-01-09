@@ -16,6 +16,10 @@
     @apply bg-gradient-to-r from-(--color-primary) to-(--color-secondary)
   }
 
+  .bg-hero {
+    @apply bg-gradient-to-br from-(--color-secondary)/90 via-(--color-secondary) to-(--color-primary)
+  }
+
   .bg-primary {
     @apply bg-(--color-primary)
   }
