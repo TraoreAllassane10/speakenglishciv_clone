@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+:root {
+  --background: 0 0% 100%;
+  --color-primary: #F97015;
+  --color-secondary: #0DA2E7;
+  --text-foreground: #71747b;
+}
+
+@layer base {
+  body {
+    background-color: var(--background);
+  }
+
+  .bg-header-top {
+    @apply bg-gradient-to-r from-(--color-primary) to-(--color-secondary)
+  }
+
+  .bg-primary {
+    @apply bg-(--color-primary)
+  }
+
+  .text-primary {
+    @apply text-(--color-primary)
+  }
+
+   .bg-secondary {
+    @apply bg-(--color-secondary)
+  }
+
+  .text-secondary {
+    @apply text-(--color-secondary)
+  }
+
+  .text-foreground {
+    @apply text-(--text-foreground)
+  }
+
+  button{
+    @apply cursor-pointer;
+  }
+}
