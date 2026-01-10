@@ -111,7 +111,7 @@ const Header = () => {
       {openMobile && (
         <div className="mx-4 overflow-hidden transition-all duration-300 ease-in-out">
           <hr className="my-4 border-gray-200" />
-          <div className="flex flex-col lg:hidden gap-4 mb-4">
+          <div className="flex flex-col lg:hidden gap-4">
             {menuItems.map((item) => (
               <li className="list-none ">
                 <Link
@@ -128,7 +128,7 @@ const Header = () => {
             ))}
           </div>
 
-          <div className="block lg:hidden">
+          <div className="block lg:hidden my-4">
             <button className="px-8 py-3 w-full inline-flex items-center justify-center bg-secondary hover:bg-blue-800 text-white rounded-full font-semibold transition-all duration-300 focus-visible:ring-2 shadow-lg shadow-blue-250 hover:-translate-y-0.5 active:scale-[0.98]">
               Commander une traduction
             </button>

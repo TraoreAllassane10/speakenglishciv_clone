@@ -36,6 +36,10 @@
     @apply text-(--color-secondary)
   }
 
+  .text-gradient {
+    @apply bg-gradient-to-r from-(--color-primary) to-(--color-secondary) bg-clip-text text-transparent
+  }
+
   .text-foreground {
     @apply text-(--text-foreground)
   }
