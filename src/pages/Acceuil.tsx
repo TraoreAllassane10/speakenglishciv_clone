@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import HeroContact from "../components/HeroContact";
 import HeroHome from "../components/HeroHome";
 import Packs from "../components/Packs";
@@ -10,6 +11,7 @@ const Acceuil = () => {
       <Services />
       <Packs/>
       <HeroContact/>
+      <Footer/>
     </>
   );
 };
