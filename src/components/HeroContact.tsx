@@ -9,7 +9,7 @@ const HeroContact = () => {
         transformation linguistique dès aujourd'hui.
       </p>
 
-      <div className="flex gap-4">
+      <div className="flex flex-col lg:flex-row gap-4">
         <button className="border-2 border-white hover:bg-white/5 text-white font-bold text-xl rounded-2xl px-10 py-3 transition duration-300">
           Tester mon niveau gratuitement
         </button>

@@ -13,9 +13,9 @@ import {
 const Footer = () => {
   return (
     <div className="bg-gray-900 ">
-      <div className="md:mx-4 lg:mx-20 py-16">
-        <div className="grid grid-cols-4 gap-4">
-          {/* LOgo et description */}
+      <div className="mx-4 md:mx-4 lg:mx-20 py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+          {/* Logo et description */}
           <div>
             <div className="flex flex-col gap-6">
               {/* Logo */}
@@ -115,7 +115,7 @@ const Footer = () => {
             </Link>
           </div>
 
-          {/* Nos Services */}
+          {/* Contact */}
           <div className="flex flex-col gap-3 text-white">
             <h2 className="font-bold text-xl">Contact</h2>
 
