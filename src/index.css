@@ -12,7 +12,7 @@
     background-color: var(--background);
   }
 
-  .bg-header-top {
+  .bg-gradient {
     @apply bg-gradient-to-r from-(--color-primary) to-(--color-secondary)
   }
 

@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <div className="sticky top-0 z-50 backdrop-blur-md w-full">
       {/* Top Header */}
-      <div className="hidden md:block bg-header-top">
+      <div className="hidden md:block bg-gradient">
         <div className="flex justify-between md:mx-4 lg:mx-20 py-2">
           <div className="flex gap-4 text-sm">
             <p className="flex gap-2 place-items-center">
