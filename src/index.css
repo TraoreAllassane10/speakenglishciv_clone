@@ -44,6 +44,10 @@
     @apply text-(--text-foreground)
   }
 
+  .border-primary{
+    @apply border-(--color-primary)
+  }
+
   button{
     @apply cursor-pointer;
   }

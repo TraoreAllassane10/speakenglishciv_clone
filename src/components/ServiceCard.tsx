@@ -29,7 +29,13 @@ const ServiceCard = ({
         ))}
       </ul>
 
-      <button className={`${textColor === "text-primary" ? "bg-primary shadow-orange-100" : "bg-secondary shadow-blue-100"} group flex gap-2 items-center justify-center place-items-center bg-primary text-white font-semibold p-2 rounded-xl shadow-lg  hover:-translate-y-0.5 transition duration-300`}>
+      <button
+        className={`${
+          textColor === "text-primary"
+            ? "bg-primary shadow-orange-100"
+            : "bg-secondary shadow-blue-100"
+        } group flex gap-2 items-center justify-center place-items-center bg-primary text-white font-semibold p-2 rounded-xl shadow-lg  hover:-translate-y-0.5 transition duration-300`}
+      >
         En savoir plus{" "}
         <ArrowRight
           size={16}
